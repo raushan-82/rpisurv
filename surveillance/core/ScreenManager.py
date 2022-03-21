@@ -146,7 +146,7 @@ class ScreenManager:
             counter = counter + 1
 
         #Show a connecting screen on first run, so that in case of many streams = long initial startup, the user knows what is happening.
-        draw.placeholder(0, 0, int(self.resolution[0]), int(self.resolution[1]), "images/connecting.png", self.pygamescreen)
+        draw.placeholder(0, 0, int(self.resolution[0]), int(self.resolution[1]), "images/blackbackground_3840_2160.png", self.pygamescreen)
         draw.refresh()
 
 
